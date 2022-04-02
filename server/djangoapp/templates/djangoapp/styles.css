@@ -17,14 +17,14 @@
             color: #f0f0f0;
             border-radius: 0;
             border: 0;
-            background-color: #75ffff;
+            background-color: #df0f00;
         }
         
         #logo-img {
             background: url('../images/logo-150.jpg') no-repeat;
             width: 150px;
             height: 150px;
-            margin: 10px 15px 10px 0;
+            margin: 22px 15px 10px 0;
         }
         
         .navbar-brand {
@@ -87,7 +87,7 @@
         }
         
         #nav-list a:hover {
-            background: #0000cc;
+            background: #990000;
         }
         
         #phone-number {
@@ -111,7 +111,7 @@
                 background: url('../images/logo-100.jpg') no-repeat;
                 width: 100px;
                 height: 100px;
-                margin: 5px 5px 5px 0px;
+                margin: 18px 5px 5px 0px;
             }
             .navbar-brand {
                 padding-top: 20px;
@@ -142,16 +142,18 @@
             /* Header */
             .navbar-brand {
                 padding-top: 10px;
-                height: 80px;
+                height: 100px;
             }
             .navbar-brand p {
-                font-size: 0.9em;
+                font-size: 0.8em;
                 margin-top: 6px;
+                margin-bottom: 0px;
             }
             #login-button {
                 font-size: 0.8em;
-                line-height: 20px;
+                /* line-height: 10px;*/
                 margin-top: 0px;
+                margin-bottom: 0px;
             }
             #nav-list a {
                 font-size: 0.8em;
@@ -168,20 +170,22 @@
             /* Header */
             .navbar-brand {
                 padding-top: 10px;
-                height: 80px;
+                height: 100px;
             }
             .navbar-brand h1 {
                 padding-top: 10px;
-                font-size: 8vw;
+                font-size: 7vw;
+                margin-bottom: 0px;
             }
             .navbar-brand p {
                 font-size: 0.8em;
-                margin-top: 10px;
+                margin-top: 0px;
+                margin-bottom: 0px;
             }
             #login-button {
                 font-size: 0.8em;
-                line-height: 20px;
                 margin-top: 0px;
+                margin-bottom: 0px;
             }
             /* End Header */
         }
@@ -198,7 +202,7 @@
             line-height: 60px;
             text-align: center;
             color: #ababab;
-            background-color: #75ffff;
+            background-color: #df0f00;
         }
         
         .helloInput {
