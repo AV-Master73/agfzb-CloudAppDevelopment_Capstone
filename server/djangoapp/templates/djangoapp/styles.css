@@ -12,15 +12,6 @@
         }
         /** HEADER SECTION **/
         
-        #container {
-            flex-direction: row-reverse;
-            align-items: stretch;
-        }
-        
-        #colllapsable-nav {
-            width: 200px;
-        }
-        
         #header-nav {
             width: 100%;
             color: #f0f0f0;
