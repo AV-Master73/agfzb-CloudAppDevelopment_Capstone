@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Dealership Review</title>
@@ -7,12 +8,56 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 
-    <body>
+<body>
+    <header id="main-header">
+        <nav id="header-nav" class="navbar navbar-default" style="height: 100px;">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="navbar-brand">
+                        <a href="index.html">
+                            <h1 style="font-family: 'Anton', sans-serif;text-shadow: 2px 2px 2px #222;">
+                                Dealer details
+                            </h1>
+                        </a>
+                    </div>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
 
-    <!--Add a nav bar here -->
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="add_review.html">
+                                <span class="glyphicon glyphicon-check"></span><br class="hidden-xs"> Add Review</a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
+                        </li>
+                        <li>
+                            <a href="registration.html">
+                                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Register</a>
+                        </li>
+                        <li id="phone" class="hidden-xs">
+                            <a href="tel:099-111-2233">
+                                <span id="phone-number">099-111-2233</span></a>
+                        </li>
+                    </ul>
+                    <!-- #nav-list -->
+                </div>
+                <!-- .collapse .navbar-collapse -->
+            </div>
+            <!-- .container -->
+        </nav>
+        <!-- #header-nav -->
+    </header>
 
     <!-- Add reviews as cards -->
 
-    </body>
+</body>
 
 </html>
